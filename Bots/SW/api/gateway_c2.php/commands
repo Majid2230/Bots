@@ -1,0 +1,158 @@
+{'command':'SetWizardName'}                              //Only for new users >> useless for us atm
+{'command':'GetWizardInfo'}                              //to get player info
+{'command':'getUpdatedDataBeforeWebEvent'}               //getUpdatedDataBeforeWebEvent
+{'command':'GetGuildInfo'}                               //GetGuildInfo
+{'command':'GetGuildMazeStatusInfo'}                     //GetGuildMazeStatusInfo
+{'command':'getGuildAttendInfo'}                         //getGuildAttendInfo
+{'command':'receiveGuildAttendReward'}                   //receiveGuildAttendReward
+{'command':'GetGuildGifts'}                              //GetGuildGifts
+{'command':'UpdateEventStatus'}                          //UpdateEventStatus
+{'command':'GetArenaWizardList'}                         //GetArenaWizardList
+{'command':'WorldRanking'}                               //get wordlranking
+{'command':'GetArenaUnitList'}                           //get GetArenaUnitList
+{'command':'Harvest'}                                    //to get recourses from buildings
+{'command':'UpdateAchievement'}                          //UpdateAchievement
+{'command':'SetRecentDecks'}                             //to select mobs to fight with >> set a deck
+{'command':'BattleScenarioStart'}                        //to start normal battle
+{'command':'BattleResurrection'}                         //to revive after deafet
+{'command':'BattleArenaStart'}                           //BattleArenaStart
+{'command':'BattleDungeonStart'}                         //start dungeon battle
+{'command':'BattleDungeonResult_V2'}                     //finish dungeon battle
+{'command':'BattleTrialTowerStart_v2'}                   //BattleTrialTowerStart_v2
+{'command':'BattleScenarioResult'}                       //finish the normal battle
+{'command':'BattleArenaResult'}                          //BattleTrialTowerStart_v2
+{'command':'BattleDungeonResult'}                        //BattleDungeonResult
+{'command':'BattleTrialTowerResult_v2'}                  //BattleTrialTowerResult_v2
+{'command':'SummonUnit'}                                 //summon mobs from scrolls
+{'command':'SummonUnitByBeginner'}                       //Beginner event free mobs
+{'command':'EquipRune'}                                  //to EquipRune
+{'command':'SellRune'}                                   //to sell runes
+{'command':'UpgradeRune'}                                //to UpgradeRune
+{'command':'BuyShopItem'}                                //to BuyShopItem
+{'command':'ClaimAchievementReward'}                     //to ClaimAchievementReward
+{'command':'RewardDailyQuest'}                           //to get RewardDailyQuest
+{'command':'SacrificeUnit'}                              //+ unit version example SacrificeUnit_V3 to lvl up mobs
+{'command':'ReceiveMail'}                                //ReceiveMail
+{'command':'GetWorldBossStatus'}                         //go to battle main menu
+{'command':'getInstanceList'}                            //get Dungeon list
+{'command':'GetDungeonList'}                             //get Dungeon list 
+{'command':'CleanObstacle'}                              //to clean trees rocks..etc
+{'command':'GuestLogin'}                                 //for none linked accounts
+{'command':'HubUserLogin'}                               //HubUserLogin for hive accounts login
+{'command':'UpgradeUnit'}                                //+ unit version example UpgradeUnit to lvl up mobs
+{'command':'AwakenUnit'}                                 //to awake mobs
+{'command':'GetFriendList'}                              //GetFriendList
+{'command':'PvpRequestBattleGiveUp'}                     //PvpRequestBattleGiveUp
+{'command':'PvpRequestRematch'}                          //PvpRequestRematch
+{'command':'PvpRequestUserMessage'}                      //PvpRequestUserMessage
+{'command':'PvpRequestRejoin'}                           //PvpRequestRejoin
+{'command':'PvpRequestRejoinSync'}                       //PvpRequestRejoinSync
+{'command':'PvpRequestRejoinLoading'}                    //PvpRequestRejoinLoading
+{'command':'PvpRequestRoomJoinSpectator'}                //PvpRequestRoomJoinSpectator
+{'command':'PvpRequestSpectatorSync'}                    //PvpRequestSpectatorSync
+{'command':'PvpRequestObserverRoomPause'}                //PvpRequestObserverRoomPause
+{'command':'PvpRequestObserverRoomResume'}               //PvpRequestObserverRoomResume
+{'command':'PvpRequestReadyForNextBattle'}               //PvpRequestReadyForNextBattle
+{'command':'PvpRequestObserverRoomBattleResultInvalid'}  //PvpRequestObserverRoomBattleResultInvalid
+{'command':'PvpRequestEmoticonSend'}                     //PvpRequestEmoticonSend
+{'command':'PvpRequestChatSend'}                         //PvpRequestChatSend
+{'command':'CreateHubUser'}                              //to create new user its useless to us
+{'command':'GetWishList'}                                //GetWishList
+{'command':'DoRandomWishItem'}                           //DoRandomWishItem
+{'command':'GetBlackMarketList'}                         //GetBlackMarketList
+{'command':'OpenBlackMarketSlot'}                        //OpenBlackMarketSlot
+{'command':'BuyBlackMarketItem'}                         //BuyBlackMarketItem
+{'command':'GetExpeditionInfo'}                          //GetExpeditionInfo
+{'command':'OpenExpeditionSlot'}                         //OpenExpeditionSlot
+{'command':'SendExpedition'}                             //SendExpedition
+{'command':'FInishExpedition'}                           //FInishExpedition
+{'command':'AddFriends'}                                 //AddFriends
+{'command':'VisitFriend'}                                //VisitFriend
+{'command':'GetMailList'}                                //GetMailList
+{'command':'ReceiveMail'}                                //ReceiveMail
+{'command':'GetEventStatus'}                             //GetEventStatus
+{'command':'GetAchievements'}                            //GetAchievements
+{'command':'AddFriendById'}                              //AddFriendById
+{'command':'AddFriendRequest'}                           //AddFriendRequest
+{'command':'AddFriendRequestByUid'}                      //AddFriendRequestByUid
+{'command':'GetFriendRecommended'}                       //GetFriendRecommended
+{'command':'GetFriendRequest'}                           //GetFriendRequest
+{'command':'GetFriendRequestSend'}                       //GetFriendRequestSend
+{'command':'CancelFriendRequest'}                        //CancelFriendRequest
+{'command':'AcceptFriendRequest'}                        //AcceptFriendRequest
+{'command':'RejectFriendRequest'}                        //RejectFriendRequest
+{'command':'DeleteFriends'}                              //DeleteFriends
+{'command':'GetFriendDeleted'}                           //GetFriendDeleted
+{'command':'RemoveFriendDeleted'}                        //RemoveFriendDeleted
+{'command':'GetPvpInfo'}                                 //GetPvpInfo
+{'command':'GetDailyQuests'}                             //GetDailyQuests
+{'command':'RewardDailyQuest'}                           //RewardDailyQuest
+{'command':'GetGatheringInfo'}
+{'command':'DoGathering'}
+{'command':'GetUnitCollection'}
+{'command':'CheckUnitCollection'}
+{'command':'SetRepUnit'}
+{'command':'PlaceInventoryItem'}
+{'command':'SetDefenseUnits'}
+{'command':'GetDefenseUnits'}
+{'command':'BuyCurrency'}
+{'command':'ExpandUnitSlot'}
+{'command':'SendDailyGift'}
+{'command':'AddInventoryItem'}
+{'command':'IncreaseCurrency'}
+{'command':'AddExp'}
+{'command':'ModifyArenaScore'}
+{'command':'AddUnitExp'}
+{'command':'ModifyUnitSkill'}
+{'command':'CreateTestRune'}
+{'command':'GetArenaLog'}
+{'command':'CheckDailyReward'}
+{'command':'GetInviteInfo'}
+{'command':'SendInvite'}
+{'command':'InitInviteList'}
+{'command':'InitInviteReward'}
+{'command':'receiveAllTypeDailyReward'}
+{'command':'GetShopInfo'}
+{'command':'BuyHonorPointItem'}
+{'command':'BuyHonorPointUnit'}
+{'command':'CheckCandidateUid'}
+{'command':'ProcessGuestTransition'}
+{'command':'BuyInappProduct'}
+{'command':'buyInappProductV4'}
+{'command':'GetNoticeLoading'}
+{'command':'GetChatServerInfo'}
+{'command':'GetMiscReward'}
+{'command':'AddMiscReward'}
+{'command':'GetDungeonNextRemained'}
+{'command':'openHiddenDailyQuest'}
+{'command':'GetRtpvpQuests'}
+{'command':'UpdateRtpvpQuests'}
+{'command':'RewardRtpvpQuest'}
+{'command':'CheatBuyUnit'}
+{'command':'cheatRemoveRaidUsedFriendList'}
+{'command':'CheatInitShopInterval')
+{'command':'CheatInitHelperList')
+{command':'CheatInitDungeonPortal')
+{'command':'cheatResetUserCollaboInfo'}
+{'command':'AssembleUnit_V2'}
+{'command':'createMentoring'}
+{'command':'CheckAndSetGuildMasterDelegate'}
+{'command':'GetEventTimeTable'}
+{'command':'TriggerShopItem'}
+{'command':'ActivateQuests'}
+{'command':'UpdateDailyQuest'}
+{'command':'SellFieldObject'}
+{'command':'GuestLogCreateGuest'}
+{'command':'UnequipRune'}
+{'command':'UpgradeDeco'}
+{'command':'GetAllUnit'}
+{'command':'BuyIsland'}
+{'command':'SummonRandomUnit'}
+{'command':'SummonUnitByBeginner'}
+{'command':'SellUnit'}
+{'command':'MoveUnit'}
+{'command':'MoveUnitBuilding'}
+{'command':'UpdateUnitExpGained'}
+{'command':'FeedUnit'}
+{'command':'BuyScroll'}
+{'command':'ResetGameData'}

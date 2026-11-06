@@ -1,0 +1,60 @@
+# ===================================================================
+#  STORY FILE: write your own film here.
+#  Lines that start with # are notes for you; the computer ignores them.
+#
+#  1) SETTINGS (at the top)
+#     TITLE:      name of your film (also the folder name)
+#     BACKEND:    openrouter  or  huggingface
+#     MODEL:      which AI model makes the clips
+#                 openrouter:  minimax/hailuo-3   (best open-weights model, $0.13/s, with sound)
+#                              alibaba/wan-3.0    (closed but cheap: $0.05/s at 480p, up to 30 s per scene)
+#                 huggingface: Wan-AI/Wan2.2-T2V-A14B  or  tencent/HunyuanVideo-1.5
+#     STYLE:      words added to EVERY scene, so the whole film looks the same
+#     ASPECT:     16:9 (YouTube)  or  9:16 (TikTok, Reels, Shorts)
+#     RESOLUTION: optional, e.g. 480p / 720p / 1080p (leave out for the model default)
+#     AUDIO:      yes = the model also makes sound (wind, waves, people...)
+#     REFERENCE:  optional photo (file or web link) to keep a person/place looking
+#                 the same in every scene. You can add several REFERENCE lines.
+#
+#  2) SCENES (one per paragraph), in the order they appear in the film:
+#     [8] description ...           -> a new 8-second shot
+#     [8 continue] description ...  -> continues smoothly from the end of the previous scene
+#     A scene can be longer than one line; just keep writing on the next lines.
+#
+#  Length: MiniMax H3 = 5 to 15 s per scene. Add as many scenes as you like:
+#  12 scenes x 15 s = a 3-minute film (~$23 with MiniMax H3).
+# ===================================================================
+
+TITLE: Journey Through Saudi Arabia
+BACKEND: openrouter
+MODEL: minimax/hailuo-3
+STYLE: Cinematic travel documentary, warm golden color grade, smooth stabilized camera, natural ambient sound, 4K film look
+ASPECT: 16:9
+AUDIO: yes
+
+[8] Sunrise over the red sand dunes of the Empty Quarter, Saudi Arabia. Wind blows fine sand
+    off the dune crests. A camel caravan appears on the horizon.
+
+[8 continue] The camera glides closer to the camel caravan as it walks in a line across the dunes,
+    long shadows stretching across the sand.
+
+[8] Drone shot slowly circling Elephant Rock in AlUla at golden hour, warm orange sandstone,
+    people sitting on rugs near small lanterns.
+
+[8] Slow forward dolly towards the ancient Nabataean tomb of Qasr al-Farid in Hegra, carved
+    into a single sandstone boulder, clear blue sky.
+
+[8] Steady walking shot through a narrow lane of Al-Balad, the historic old town of Jeddah,
+    coral-stone houses with carved wooden roshan balconies, late-afternoon light.
+
+[8] Underwater shot gliding over a vibrant Red Sea coral reef, turquoise water, colorful fish,
+    sunbeams shining through the surface.
+
+[8] Close-up of a hand pouring Saudi Arabic coffee from a brass dallah into a small finjan cup,
+    next to dates on a traditional rug, steam rising.
+
+[8] Aerial shot over the Riyadh skyline at dusk, the Kingdom Centre tower lighting up as the
+    city lights turn on.
+
+[8 continue] The camera keeps rising over Riyadh into the night sky, car light trails flowing
+    along King Fahd Road below, ending on a wide view of the glowing city.
